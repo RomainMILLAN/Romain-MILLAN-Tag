@@ -91,6 +91,13 @@
     --rm-tag-filled-color: black;
 }
 
+body.dark-mode .rm-tag-fill-white {
+    --rm-tag-filled-color: black;
+}
+body.dark-mode .rm-tag-fill-black {
+    --rm-tag-filled-color: white;
+}
+
 /** STROKES */
 .rm-tag-stroke-transparent {
     --rm-tag-stroke-color: transparent;
@@ -100,6 +107,13 @@
 }
 .rm-tag-stroke-black {
     --rm-tag-stroke-color: black;
+}
+
+body.dark-mode .rm-tag-stroke-white {
+    --rm-tag-stroke-color: black;
+}
+body.dark-mode .rm-tag-stroke-black {
+    --rm-tag-stroke-color: white;
 }
 
 
